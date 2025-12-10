@@ -1,8 +1,8 @@
-let Num = Number(prompt("Ingresa un número para calcular su factorial:"));
+let Num = Number(prompt("Escribe un número para obtener su factorial:"));
 
 if (isNaN(Num) || Num < 1) {
     document.getElementById("resultado").textContent =
-        "Error: Debes ingresar un número válido mayor o igual a 1.";
+        "ERROR: Debes ingresar un número válido mayor o igual a 1.";
 } else {
     let factorial = 1;
 
